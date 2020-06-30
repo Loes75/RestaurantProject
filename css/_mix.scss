@@ -1,0 +1,35 @@
+@mixin button ($paddingSize,$width) {
+    .btn{
+        background-color: $firstColor;
+        color: $textColor;
+        border-style: none;
+        padding: $paddingSize;   
+        width: $width;
+        font-size: 1.2rem ;
+        margin-top: 5px;
+        border: 2px solid $firstColor;
+    }
+    .btn:hover{
+        background-color: $textColor;
+        color: $firstColor;
+        
+    }
+    
+}
+@mixin sectionImg() {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+    
+}
+
+@mixin  primaryText($size) {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    width: 70%;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: $size;   
+}

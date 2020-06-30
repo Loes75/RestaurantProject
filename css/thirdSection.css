@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 13px;
+  }
+}
+
+body {
+  width: 100%;
+  font-family: "EB Garamond";
+}
+
+.container {
+  padding-right: 7% !important;
+  padding-left: 7% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0% 3% !important;
+  }
+}
+
+.section-text {
+  margin: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.third-section {
+  height: 100vh;
+  max-height: 768px;
+}
+
+@media screen and (max-width: 768px) {
+  .third-section {
+    height: auto;
+  }
+}
+
+@media screen and (max-height: 540px) {
+  .third-section {
+    height: auto;
+  }
+}
+
+.third-section .menu {
+  margin-bottom: 20px;
+}
+
+.third-section .menu h1 {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  width: 70%;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-style: italic;
+  color: #970C10;
+  width: 100%;
+  text-align: center;
+}
+
+.third-section .menu .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 60%;
+  margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .third-section .menu .options {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+.third-section .menu .options div {
+  border-bottom: 2px solid transparent;
+  font-weight: normal;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.third-section .menu .options div:hover {
+  border-bottom: 2px solid #970C10;
+}
+
+.menu-images {
+  margin-top: 7%;
+}
+
+.menu-images .mains, .menu-images .desserts, .menu-images .drinks {
+  margin: auto;
+  width: 60%;
+}
+
+.menu-images .opt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.menu-images .opt-img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 410px) {
+  .menu-images .opt-img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.menu-images .info {
+  margin-right: 20px;
+}
+
+.menu-images .info h3 {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.menu-images .info h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 410px) {
+  .menu-images .info h3 {
+    font-size: 1.5rem;
+  }
+  .menu-images .info h4 {
+    font-size: 1rem;
+  }
+}
+
+.menu-images .price h4 {
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-images {
+    width: 100%;
+    padding: 0% 3%;
+  }
+  .menu-images .mains, .menu-images .desserts, .menu-images .drinks {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=thirdSection.css.map */

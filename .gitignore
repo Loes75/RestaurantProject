@@ -1,1 +1,4 @@
 node_modules/
+**/Img/BigImges
+.sass-cache*
+.css.map

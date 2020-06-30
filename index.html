@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
-    <link rel="shortcut icon" href="Img/ico.ico">
+    <link rel="shortcut icon" href="./Img/ico.ico">
     
     <title>Restaurant</title>
 </head>
@@ -51,7 +51,7 @@
 
     <section class="second-section">
         <div class="img-about">
-            <img src="/Img/background2.jpg" alt="restaurant">
+            <img src="./Img/background2.jpg" alt="restaurant">
 
         </div>
         <div class="section-text container">
@@ -185,11 +185,11 @@
             <h4 class="info">Years of experience</h4>
         </div>
         <div>
-            <h2 class="counter" countto="400000">0</h2>
+            <h2 class="counter" countto="500000">0</h2>
             <h4 class="info">Customers</h4>
         </div>
         <div>
-            <h2 class="counter" countto="14600">0</h2>
+            <h2 class="counter" countto="14400">0</h2>
             <h4 class="info">Working days</h4>
         </div>
         
@@ -197,9 +197,88 @@
     </section>
 
     <section class="fifth-section">
-        <div class="img-book"></div>
-        
+        <div class="img-book">
+            <img src="./Img/chef.jpg" alt="chef">
+        </div>
+        <div class="form-section">
+            <h1>Book a table</h1>
+            <form  class="form" action="#">
+                <div class="form-inputs">
+                    <div class="data">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="Name"><br>
+                        <label for="phone">Phone</label>
+                        <input type="text" name="phone" placeholder="Phone"><br>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" placeholder="Email"><br>
+                    </div>
+                    <div class="data">
+                        <label for="time">Time</label>
+                        <input type="time" name="time" min="11:00" max="21:00"><br>
+                        <label for="date">Date</label>
+                        <input type="date" name="date"><br>
+                        <label for="person">Person</label>
+                        <input type="number" name="person" min="1" max="10" placeholder="Person"><br>
+                    </div>
+
+                </div>
+                <div class="button">
+                    <button class="btn" type="submit">Book</button>  
+
+                </div>
+                             
+            </form>
+            
+        </div>     
     </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="hours">
+                <ul>
+                    <h3>Opening hours</h3>
+                    <li class="hour-item">
+                        <span>Monday</span>
+                        <span>11:00 - 19:00</span>
+                    </li>
+                    <li class="hour-item">
+                        <span>Tuesday</span>
+                        <span>11:00 - 19:00</span>
+                    </li>
+                    <li class="hour-item">
+                        <span>Wednesday</span>
+                        <span>11:00 - 19:00</span>
+                    </li>
+                    <li class="hour-item">
+                        <span>Thursday</span>
+                        <span>11:00 - 19:00</span>
+                    </li>
+                    <li class="hour-item">
+                        <span>Friday</span>
+                        <span>11:00 - 19:00</span>
+                    </li>
+                    <li class="hour-item">
+                        <span>Saturday</span>
+                        <span>11:00 - 21:00</span>
+                    </li>
+                    <li class="hour-item">
+                        <span>Sunday</span>
+                        <span>Closed</span>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact us - Follow us </h3>
+                <a href="#" class="contact-link"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="contact-link"><i class="fab fa-instagram-square"></i></a>
+                <a href="#" class="contact-link"><i class="fas fa-envelope"></i></a>
+
+            </div>
+            
+        </div>
+
+    </footer>
 
 
     

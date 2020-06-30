@@ -1,0 +1,49 @@
+@import "_variables.scss";
+@import "_base.scss";
+@import "_mix.scss";
+
+
+//Fourth section
+
+.fourth-section{
+    height: 40vh;
+    min-height: 150px;
+    max-height: 250px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3)0% , rgba(0, 0, 0, 0.7) 100%) , url("../Img/background2.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @media screen  and (max-width: 768px){
+        flex-direction: column;
+        height: 100%;
+    }
+    div{
+        color: $textColor;
+        flex:1;
+        text-align: center;
+        h2{
+            font-size: 4rem;
+            font-weight: bold;
+            text-align: center; 
+        }
+        h4{
+            font-size: 1.8rem;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+        }  
+        @media screen  and (max-width: 768px){
+            margin-bottom: 6px;
+            h2{
+                font-size: 3rem;
+            }
+            h4{
+                font-size: 1.5rem;
+            }
+            
+        }      
+    }      
+}

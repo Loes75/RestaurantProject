@@ -1,0 +1,119 @@
+@import "_variables.scss";
+@import "_base.scss";
+@import "_mix.scss";
+
+
+//Third section - Menu
+
+.third-section{
+    height: 100vh;
+    max-height: 768px;
+    @media screen and (max-width:768px) {
+        height: auto; 
+    }
+    @media screen and (max-height: 540px) {
+        height: auto; 
+    }
+    .menu{
+        margin-bottom: 20px;
+        h1{
+            @include primaryText(3rem);
+            font-style: italic;
+            color: $firstColor;
+            width: 100%;
+            text-align: center;
+        }
+        .options{
+            display: flex;
+            justify-content: space-around;
+            width: 60%;
+            margin-left: auto;
+            align-items: center;
+            @media screen and (max-width:768px) {
+                margin: auto;
+                width: 100%;
+            }
+    
+            div{
+                border-bottom: 2px solid transparent;
+                font-weight: normal;
+                font-size: 1.5rem;
+                letter-spacing: 3px;
+                cursor: pointer;
+                &:hover{
+                    border-bottom: 2px solid $firstColor;
+                }
+            }
+        }
+    
+    }
+    
+}
+
+.menu-images {
+    margin-top: 7%;
+    @media screen and (max-width:972px) {
+        //margin-top: 15vh;
+    }
+    .mains , .desserts, .drinks {
+        margin: auto;
+        width: 60%;
+    }  
+    .opt{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .opt-img{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-right: 20px;
+        @media screen and (max-width: 410px) {
+            
+            height: 60px;
+            width: 60px;
+               
+        }
+
+    }
+    .info{
+        margin-right: 20px;
+        h3{
+            font-size: 1.8rem;
+            letter-spacing: 2px;
+            font-weight: normal;
+        }
+        h4{
+            font-size: 1.3rem ;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color:  $textMuted;
+        }
+        @media screen and (max-width: 410px) {
+            h3{
+                font-size: 1.5rem;
+            }  
+            h4{
+                font-size: 1rem;
+            }     
+        }
+
+    }
+    .price{
+            h4{
+                font-size: 1.3rem;
+            }
+    }
+        
+    
+    @media screen and (max-width: 768px){
+        width: 100%;
+        padding: 0% 3%;
+        .mains , .desserts, .drinks {
+            width: 100%;
+        }  
+    }
+    
+}

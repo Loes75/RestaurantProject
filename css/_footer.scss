@@ -1,0 +1,81 @@
+@import "_variables.scss";
+@import "_base.scss";
+@import "_mix.scss";
+
+footer{
+    padding-top: 20px;
+    background-color: $footerBg;
+    .footer-container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        @media screen  and (max-width : 562px){
+            flex-direction: column;
+            .hours, .mapa , .contact{
+                width: 100%;
+            }
+            .hours{
+                text-align: center;
+            }
+
+        }
+        .hours{
+            flex: 1;
+            align-self: center;
+            height: 100%;
+            text-align: center;
+            
+            h3{
+                font-size: 1.5rem;
+                letter-spacing: 1px;
+                margin-bottom: 5%;
+                color: $textColor;
+
+            }
+            ul{
+                list-style: none;
+                width: 100%;
+                .hour-item{
+                    display: flex;
+                    font-size: 1.3rem;
+                    margin-bottom: 2%;
+                    color: $footerText;
+                    span{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .contact{
+            flex: 1;
+            text-align: center;
+            height: 100%;
+
+            h3{
+                color: $textColor;
+                font-size: 1.5rem;
+                letter-spacing: 1px;
+                margin-bottom: 30px;
+            }
+            .contact-link{
+                i{
+                    font-size: 3rem; 
+                    margin-right: 5px;
+                    color: $textColor;
+                    cursor: pointer;
+
+                    &:hover{
+                    color: $secondColor;
+                    }
+                }
+            }
+                
+ 
+        }
+
+    }
+
+    
+
+}

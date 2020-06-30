@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @media screen and (max-width:768px) {
+        font-size: 13px;       
+    }
+
+}
+body{
+    width: 100%;
+    font-family: $fontFamily;
+
+}
+
+.container{
+    padding-right: 7% !important;
+    padding-left: 7% !important;
+    @media screen and (max-width:768px) {
+        padding: 0% 3% !important;
+        
+    }
+}
+
+.section-text{
+    margin: auto;
+}
+.hide{
+    display: none;
+}
