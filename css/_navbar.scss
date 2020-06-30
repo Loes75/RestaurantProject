@@ -1,9 +1,6 @@
 // NAV BAR 
-/*
-.header{
-    position: fixed;
-    top: 0;
-}*/
+
+
 .nav-bar{
     min-height: 8vh;
     display: flex;
@@ -31,7 +28,15 @@
         z-index: 10;
 
     }
-   
+    @media screen and (max-width: 768px){
+        position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.7);
+    }
+       
+
 }
 /// SIMULATION OF CLOSE ICON
 .toggle .line1{
