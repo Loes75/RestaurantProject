@@ -1069,14 +1069,14 @@ footer .footer-container .contact h3 {
   margin-bottom: 30px;
 }
 
-footer .footer-container .contact .contact-link svg, footer .footer-container .contact .contact-link i {
+footer .footer-container .contact .contact-link {
   font-size: 3rem;
   margin-right: 5px;
   color: white;
   cursor: pointer;
 }
 
-footer .footer-container .contact .contact-link svg:hover, footer .footer-container .contact .contact-link i:hover {
+footer .footer-container .contact .contact-link:hover {
   color: #000000;
 }
 /*# sourceMappingURL=style.css.map */

@@ -59,18 +59,15 @@ footer{
                 margin-bottom: 30px;
             }
             .contact-link{
-                svg, i{
-                    font-size: 3rem; 
-                    margin-right: 5px;
-                    color: $textColor;
-                    cursor: pointer;
+                
+                font-size: 3rem; 
+                margin-right: 5px;
+                color: $textColor;
+                cursor: pointer;
 
-                    &:hover{
+                &:hover{
                     color: $secondColor;
-                    }
-                }
-            
-                    
+                }        
             
             }
                 
