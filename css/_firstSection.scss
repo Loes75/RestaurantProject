@@ -11,6 +11,10 @@
     @media screen and (max-height: 540px) {
         height: auto; 
     }
+    @media screen and (max-width:768px){
+        margin-top: 8vh;
+    }
+    
     .section-text{
         flex: 1;
         h1{

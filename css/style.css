@@ -230,6 +230,12 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .first-section {
+    margin-top: 8vh;
+  }
+}
+
 .first-section .section-text {
   -webkit-box-flex: 1;
       -ms-flex: 1;
