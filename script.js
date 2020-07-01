@@ -132,10 +132,27 @@ const countingNumbers = () => {
     observer.observe(fifthSection);
 
 }
+//Form validation
 
+const formV = () => {
+    const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    let form = document.querySelector("#formReservation");
+    const submitBtn = document.querySelector("#name");
+    const name = document.querySelector("#phone");
+    const email = document.querySelector("#email");
+    const time = document.querySelector("#time");
+    const date = document.querySelector("#date");
+    if (name.value == "" || phone.value == "" || email.value == "" || time.value == "" || date.value == "") {
+        alert("You must filled all the data");
+        return false;
+    }
+    if (!email.value.match(mailformat)) {
+        alert("The mail is invalid");
+        return false;
+    }
+    return true;
 
-
-
+}
 
 
 

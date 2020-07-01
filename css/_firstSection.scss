@@ -8,9 +8,8 @@
     display: flex;
     height: 92vh;
     width: 100%;
-    @media screen and (max-height: 540px) {
-        height: auto; 
-    }
+    min-height: 490px;
+    
     @media screen and (max-width:768px){
         margin-top: 8vh;
     }
