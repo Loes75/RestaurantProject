@@ -26,8 +26,9 @@ const topSlider = () => {
     const imgSection = document.querySelector('.section-image');
     const next = document.querySelector('.next');
     const previous = document.querySelector('.previous');
+    console.log(next);
     ///Slider variables
-    let img = ["url('Img/header.jpg')", "url('Img/sushizoom.jpg')"]
+    let img = ["url('../Img/header.jpg')", "url('../Img/sushizoom.jpg')"]
     let indexImg = 0;
 
     //Event listener
