@@ -7,7 +7,7 @@ Website for a restaurant
 
 2.Open index.html
 
-4.Explore it!
+3.Explore it!
 
 ## Built with :
 
